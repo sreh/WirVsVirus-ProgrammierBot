@@ -6,7 +6,7 @@ import ChatBot from "react-simple-chatbot";
 const steps = [
   {
     id: "1",
-    message: "What is your name?",
+    message: "Hej! What is your name?",
     trigger: "2",
   },
   {
