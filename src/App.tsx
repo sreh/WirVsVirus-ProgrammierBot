@@ -6,7 +6,7 @@ import ChatBot from "react-simple-chatbot";
 const steps = [
   {
     id: "1",
-    message: "What is your name?",
+    message: "Hallo, ich bin <Botname> :) Wie heißt du?",
     trigger: "2",
   },
   {
@@ -17,7 +17,7 @@ const steps = [
   {
     end: true,
     id: "3",
-    message: "Hi {previousValue}, nice to meet you!",
+    message: "Hej {previousValue}, schön dich kennenzulernen. Möchtest du lernen, wie man ganz einfach eine Homepage programmiert?",
   },
 ];
 
